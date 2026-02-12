@@ -35,7 +35,10 @@ ninja -j3
 
 echo "=== List portable binary + wrapper ==="
 mkdir -p ~/bin
-cp bin/llama-cli ~/bin/llama-cli
-chmod +x ~/bin/llama-cli
+cp bin/* ~/bin/.
+chmod +x ~/bin/*
 
+cd ~/bin
 ls
+
+
